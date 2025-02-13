@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>Your Website Name</header>
+    <section>
+        <div class="container">
+            <h1>Welcome to Your Website!</h1>
+            <p>This is a simple website. You can customize it with your own content.</p>
+            <h2>About Us</h2>
+            <p>Write something about your business or yourself here.</p>
+            <h2>Contact</h2>
+            <p>Email: your@email.com</p>
+        </div>
+    </section>
+    <footer>&copy; 2024 Your Website. All rights reserved.</footer>
+</body>
+</html>
